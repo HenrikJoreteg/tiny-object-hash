@@ -44,7 +44,7 @@ npm install tiny-object-hash
 
 ## Change log
 
-- `0.0.1`: Initial release.
+- `1.0.0`: Initial release.
 
 ## credits
 
