@@ -1,0 +1,37 @@
+{
+  "name": "tiny-object-hash",
+  "description": "Tiny lib sorts keys and generates hash for JSON serializable objects so they can be compared across a network without having to send them back and forth. ~500 bytes. No dependencies.",
+  "version": "0.0.0",
+  "author": "Henrik Joreteg <henrik@joreteg.com> (joreteg.com)",
+  "bugs": {
+    "url": "https://github.com/HenrikJoreteg/tiny-object-hash/issues"
+  },
+  "dependencies": {
+    "@peculiar/webcrypto": "1.1.6"
+  },
+  "devDependencies": {
+    "tape": "5.1.1"
+  },
+  "files": [
+    "index.js",
+    "polyfill-crypto.js"
+  ],
+  "homepage": "https://github.com/HenrikJoreteg/tiny-object-hash",
+  "keywords": [
+    "Object hash"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "prettier": {
+    "semi": false,
+    "arrowParens": "avoid",
+    "singleQuote": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HenrikJoreteg/tiny-object-hash"
+  },
+  "scripts": {
+    "test": "tape test.js"
+  }
+}
