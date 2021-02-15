@@ -6,7 +6,7 @@ const deepSort = obj => {
   if (Array.isArray(obj)) {
     return obj.map(item => deepSort(item))
   }
-  if (typeof obj === 'object') {
+  if (obj && typeof obj === 'object') {
     return Object.keys(obj)
       .sort()
       .reduce((out, key) => {

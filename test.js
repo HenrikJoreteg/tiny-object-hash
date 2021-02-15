@@ -79,3 +79,12 @@ test('getObjectHash', async t => {
 
   t.end()
 })
+
+test('tolerates null values', t => {
+  getObjectHash({ something: null })
+    .then(() => {
+      t.ok('does not error')
+      t.end()
+    })
+    .catch(e => t.fail('should not end up in catch'))
+})
