@@ -1,7 +1,7 @@
 {
   "name": "tiny-object-hash",
   "description": "Tiny lib sorts keys and generates hash for JSON serializable objects so they can be compared across a network without having to send them back and forth. ~500 bytes. No dependencies.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Henrik Joreteg <henrik@joreteg.com> (joreteg.com)",
   "bugs": {
     "url": "https://github.com/HenrikJoreteg/tiny-object-hash/issues"
